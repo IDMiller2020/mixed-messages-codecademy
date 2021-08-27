@@ -14,3 +14,5 @@ const selectRandomPhrase = arr => {
 // console.log(`Random feeling: ${selectRandomPhrase(inputString.feelings)}`)
 // console.log(`Random inspiration: ${selectRandomPhrase(inputString.inspirations)}`)
 // console.log(`Random action: ${selectRandomPhrase(inputString.actions)}`)
+// 
+// ***** Random change for Git testing/practice *****
