@@ -26,3 +26,11 @@ and customize it to your liking.<br>
 - JavaScript
 - Git and GitHub
 - Command line
+
+
+**Project Plan:**
+- I chose to create a random "inspirational" message generator.
+- The program will randomly choose strings from three different arrays and put them together into a single message output.
+  - I will gather a collections of feelings, inspirational messages, and actions from sources on-line.
+  - The feelings, messages, and actions will be stored in separate arrays.
+  - The program will randomly select one item from each array, join them together, and output an "inspirational" message
