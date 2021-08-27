@@ -10,6 +10,16 @@ const selectRandomPhrase = arr => {
   return arr[randomIndex]
 }
 
+const messageBuilder = () => {
+  const feeling = selectRandomPhrase(inputString.feelings)
+  const inspiration = selectRandomPhrase(inputString.inspirations)
+  const action = selectRandomPhrase(inputString.actions)
+  const message = `Are you feeling ${feeling} today?  Well... "${inspiration}" And "${action}"`
+  return message
+}
+
+console.log(messageBuilder())
+
 // Testing Section
 // console.log(`Random feeling: ${selectRandomPhrase(inputString.feelings)}`)
 // console.log(`Random inspiration: ${selectRandomPhrase(inputString.inspirations)}`)
