@@ -14,7 +14,7 @@ const messageBuilder = () => {
   const feeling = selectRandomPhrase(inputString.feelings)
   const inspiration = selectRandomPhrase(inputString.inspirations)
   const action = selectRandomPhrase(inputString.actions)
-  const message = `Are you feeling ${feeling} today?  Well... just remember, "${inspiration}" And "${action}"`
+  const message = `Are you feeling ${feeling} today?  Well... "${inspiration}" And "${action}"`
   return message
 }
 
